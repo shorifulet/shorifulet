@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoriful Islam Sheikh — RF & Microwave Engineer · IEEE Researcher</title>
+<meta name="description" content="Shoriful Islam Sheikh — Electrical & Electronic Engineering graduate and IEEE-published researcher in RF/Microwave Engineering, microstrip patch antennas, semiconductor devices and industrial automation.">
+<meta name="author" content="Shoriful Islam Sheikh">
+<meta property="og:title" content="Shoriful Islam Sheikh — RF & Microwave Engineer">
+<meta property="og:description" content="IEEE-published researcher: microstrip patch antenna design (CST Studio Suite), semiconductor devices, industrial automation.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/photo.jpg">
+<meta name="theme-color" content="#0b1016">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1016'/%3E%3Cpath d='M6 34h12l6-18 10 34 8-26 4 10h12' fill='none' stroke='%23e0975a' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Shoriful Islam Sheikh","jobTitle":"Electrical & Electronic Engineer, RF/Microwave Researcher","email":"mailto:shorifulet@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Khulna","addressCountry":"BD"},"sameAs":["https://www.linkedin.com/in/shoriful-islam-sheikh-5b7691305","https://orcid.org/0000-0001-7087-6954","https://www.researchgate.net/profile/Shoriful-Sheikh"]}
+</script>
+<style>
+:root{
+  --bg:#0b1016; --bg2:#101821; --card:#121b25; --line:#223040;
+  --text:#e8edf2; --muted:#93a3b3; --copper:#e0975a; --copper-d:#b8733a; --signal:#5fd1c1;
+  --serif:'Fraunces',Georgia,serif; --sans:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(95,209,193,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(95,209,193,.035) 1px,transparent 1px);
+  background-size:48px 48px;mask-image:radial-gradient(ellipse at 70% 0%,#000 0%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 70% 0%,#000 0%,transparent 70%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px;position:relative;z-index:1}
+section{padding:96px 0;position:relative;z-index:1}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--copper);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow::after{content:"";height:1px;width:56px;background:var(--copper-d)}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4.2vw,44px);line-height:1.15;letter-spacing:-.01em;margin-bottom:40px;max-width:26ch}
+h3{font-family:var(--serif);font-weight:600;font-size:22px;line-height:1.3}
+.muted{color:var(--muted)}
+
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(11,16,22,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:var(--serif);font-weight:700;font-size:19px;display:flex;align-items:center;gap:10px}
+.logo svg{width:28px;height:28px}
+.links{display:flex;gap:26px;font-size:14.5px;color:var(--muted)}
+.links a{transition:color .2s}.links a:hover{color:var(--copper)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--text);width:42px;height:38px;border-radius:8px;font-size:18px;cursor:pointer}
+
+/* hero */
+.hero{padding:150px 0 90px;min-height:100vh;display:flex;align-items:center}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;color:var(--signal);border:1px solid rgba(95,209,193,.3);padding:6px 14px;border-radius:99px;margin-bottom:26px;background:rgba(95,209,193,.06)}
+.tag i{width:7px;height:7px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 0 rgba(95,209,193,.6);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(95,209,193,0)}100%{box-shadow:0 0 0 0 rgba(95,209,193,0)}}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(42px,6.6vw,76px);line-height:1.04;letter-spacing:-.025em;margin-bottom:22px}
+.hero h1 em{font-style:normal;color:var(--copper)}
+.lead{font-size:19px;color:#c3cfda;max-width:56ch;margin-bottom:34px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:10px;font-weight:500;font-size:15.5px;border:1px solid var(--line);transition:.2s}
+.btn.primary{background:var(--copper);border-color:var(--copper);color:#1a1008}
+.btn.primary:hover{background:#eaa670;transform:translateY(-2px)}
+.btn.ghost:hover{border-color:var(--copper);color:var(--copper);transform:translateY(-2px)}
+.social{display:flex;gap:10px;flex-wrap:wrap}
+.social a{font-family:var(--mono);font-size:13px;color:var(--muted);border-bottom:1px dashed var(--line);padding-bottom:2px;transition:.2s}
+.social a:hover{color:var(--signal);border-color:var(--signal)}
+.portrait{position:relative;justify-self:center;width:min(330px,80%)}
+.portrait .frame{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff;aspect-ratio:413/531}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
+.portrait::before{content:"";position:absolute;inset:-14px -14px 14px 14px;border:1.5px solid var(--copper-d);border-radius:20px;z-index:-1}
+.portrait .chip{position:absolute;left:-26px;bottom:26px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-family:var(--mono);font-size:12.5px;line-height:1.5;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.chip b{display:block;color:var(--copper);font-size:18px;font-weight:500}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.about p{color:#c3cfda;margin-bottom:18px}
+.facts{display:grid;gap:14px;align-content:start}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;display:flex;gap:18px;align-items:flex-start}
+.fact .k{font-family:var(--mono);font-size:12px;color:var(--copper);letter-spacing:.1em;text-transform:uppercase;min-width:92px;padding-top:3px}
+.fact .v{font-size:16px}
+
+/* research */
+.research{background:var(--bg2);border-block:1px solid var(--line)}
+.paper{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:36px;align-items:center}
+.paper .venue{font-family:var(--mono);font-size:12.5px;color:var(--signal);letter-spacing:.06em;margin-bottom:12px}
+.paper h3{font-size:25px;margin-bottom:14px}
+.paper p{color:#b6c3cf;font-size:16px;margin-bottom:20px}
+.paper .btns{margin-bottom:0}
+.btn.sm{padding:9px 16px;font-size:14px}
+.plot{background:#0a1118;border:1px solid var(--line);border-radius:14px;padding:16px 16px 10px}
+.plot svg{width:100%;height:auto;display:block}
+.plot figcaption{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:22px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 16px}
+.stat b{display:block;font-family:var(--serif);font-size:27px;font-weight:600;color:var(--copper);line-height:1.1;margin-bottom:6px}
+.stat span{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+.interests{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:56px}
+.int{border-top:2px solid var(--copper-d);padding-top:16px}
+.int h4{font-family:var(--serif);font-size:18px;font-weight:600;margin-bottom:6px}
+.int p{font-size:14.5px;color:var(--muted);line-height:1.55}
+
+/* timeline */
+.tl{position:relative;padding-left:34px;display:grid;gap:34px}
+.tl::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:1.5px;background:linear-gradient(var(--copper),var(--line))}
+.job{position:relative}
+.job::before{content:"";position:absolute;left:-34px;top:9px;width:15px;height:15px;border-radius:50%;background:var(--bg);border:2px solid var(--copper)}
+.job .when{font-family:var(--mono);font-size:13px;color:var(--copper);margin-bottom:4px}
+.job .org{color:var(--muted);font-size:15.5px;margin:2px 0 12px}
+.job ul{list-style:none;display:grid;gap:8px;max-width:78ch}
+.job li{padding-left:20px;position:relative;color:#c3cfda;font-size:16px}
+.job li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:1.5px;background:var(--signal)}
+
+/* edu */
+.edu-wrap{background:var(--bg2);border-block:1px solid var(--line)}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;transition:.25s}
+.card:hover{border-color:var(--copper-d);transform:translateY(-4px)}
+.card .yr{font-family:var(--mono);font-size:13px;color:var(--copper);margin-bottom:10px}
+.card h3{font-size:19px;margin-bottom:8px}
+.card p{font-size:14.5px;color:var(--muted);line-height:1.55}
+.card .note{margin-top:12px;color:#b6c3cf}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.skill{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.skill h3{font-size:18px;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.skill h3::before{content:"";width:9px;height:9px;background:var(--copper);transform:rotate(45deg)}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills span{font-family:var(--mono);font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);color:#c3cfda;background:rgba(255,255,255,.02)}
+.pills span.hot{border-color:rgba(224,151,90,.5);color:var(--copper)}
+
+/* certs */
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cert{border:1px solid var(--line);background:var(--card);border-radius:16px;padding:24px}
+.cert .ic{font-size:22px;margin-bottom:12px}
+.cert h3{font-size:17px;margin-bottom:8px}
+.cert p{font-size:14.5px;color:var(--muted)}
+
+/* contact */
+.contact{text-align:center;background:var(--bg2);border-top:1px solid var(--line)}
+.contact h2{margin-inline:auto;max-width:18ch}
+.contact .lead{margin-inline:auto}
+.mail{display:inline-block;font-family:var(--serif);font-size:clamp(22px,4vw,38px);font-weight:600;color:var(--copper);border-bottom:2px solid var(--copper-d);padding-bottom:4px;margin:6px 0 34px;word-break:break-all;transition:.2s}
+.mail:hover{color:#f0b07c}
+.contact .social{justify-content:center;margin-bottom:10px}
+.contact .meta{font-family:var(--mono);font-size:13px;color:var(--muted);margin-top:18px}
+footer{padding:28px 0;border-top:1px solid var(--line);font-family:var(--mono);font-size:12.5px;color:var(--muted);position:relative;z-index:1}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.tag i{animation:none}}
+
+@media (max-width:920px){
+  .hero-grid,.about,.paper{grid-template-columns:1fr}
+  .portrait{order:-1;width:min(260px,70%);margin-bottom:10px;justify-self:start}
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .interests{grid-template-columns:repeat(2,1fr)}
+  .cards3,.certs{grid-template-columns:1fr}
+  .skills{grid-template-columns:1fr}
+  .hero{padding-top:120px;min-height:auto}
+  section{padding:72px 0}
+  .links{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);padding:18px 24px 24px;border-bottom:1px solid var(--line);gap:16px;font-size:16px}
+  .links.open{display:flex}
+  .menu-btn{display:block}
+  .portrait .chip{left:auto;right:-8px}
+}
+@media (max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}.interests{grid-template-columns:1fr}.paper{padding:22px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#top" class="logo">
+        <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#121b25" stroke="#223040"/><path d="M8 34h12l6-18 10 34 8-26 4 10h8" stroke="#e0975a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Shoriful Sheikh
+      </a>
+      <div class="links" id="links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" id="menu" aria-label="Toggle menu">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="tag"><i></i> Open to research &amp; engineering opportunities</div>
+      <h1>Engineering the <em>invisible</em> waves that connect us.</h1>
+      <p class="lead">I'm <strong>Shoriful Islam Sheikh</strong> — an Electrical &amp; Electronic Engineering graduate and IEEE-published researcher in RF/Microwave Engineering, semiconductor devices and industrial automation. I bridge advanced R&amp;D with hands-on project management and plant-floor electrical maintenance.</p>
+      <div class="btns">
+        <a class="btn primary" href="assets/Shoriful_Islam_Sheikh_CV.pdf" download>↓ Download CV</a>
+        <a class="btn ghost" href="#research">View research</a>
+        <a class="btn ghost" href="mailto:shorifulet@gmail.com">Get in touch</a>
+      </div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/shoriful-islam-sheikh-5b7691305" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://orcid.org/0000-0001-7087-6954" target="_blank" rel="noopener">ORCID ↗</a>
+        <a href="https://www.researchgate.net/profile/Shoriful-Sheikh" target="_blank" rel="noopener">ResearchGate ↗</a>
+        <a href="https://doi.org/10.1109/ICCCNT54827.2022.9984490" target="_blank" rel="noopener">IEEE Xplore ↗</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <div class="frame"><img src="assets/photo.jpg" alt="Portrait of Shoriful Islam Sheikh" width="413" height="531"></div>
+      <div class="chip"><b>2.45 GHz</b>S-band antenna<br>IEEE · ICCCNT 2022</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about">
+    <div class="rv">
+      <div class="eyebrow">About</div>
+      <h2>From the plant floor to the simulation bench.</h2>
+      <p>My background combines high-frequency simulation, RF design and practical industrial engineering. I co-authored a peer-reviewed IEEE conference paper on an S-band microstrip patch antenna designed with CST Studio Suite, and I've spent years designing and maintaining HT/LT power distribution, PLC systems and safety operations in industry.</p>
+      <p>I'm now aiming to contribute to cutting-edge R&amp;D in semiconductor devices, RF IC design and smart automotive systems (EVs) — in academia or industry, anywhere in the world.</p>
+    </div>
+    <div class="facts rv">
+      <div class="fact"><span class="k">Focus</span><span class="v">RF / Microwave Engineering · Semiconductor Devices · Industrial Automation</span></div>
+      <div class="fact"><span class="k">Degree</span><span class="v">B.Sc. in Electrical &amp; Electronic Engineering, 2022 — Northern University of Business &amp; Technology, Khulna</span></div>
+      <div class="fact"><span class="k">Published</span><span class="v">IEEE ICCCNT 2022 · IIT Kharagpur, India</span></div>
+      <div class="fact"><span class="k">Languages</span><span class="v">Bangla (native) · English (professional, CEFR B2)</span></div>
+      <div class="fact"><span class="k">Location</span><span class="v">Khulna, Bangladesh</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="research">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Research</div>
+      <h2>Designing a 2.45 GHz microstrip patch antenna.</h2>
+    </div>
+
+    <article class="paper rv">
+      <div>
+        <div class="venue">IEEE CONFERENCE PAPER · OCT 3–5, 2022</div>
+        <h3>Design of S-Band Microstrip Patch Antenna for Wireless Communication Systems Operating at 2.45 GHz</h3>
+        <p>A low-profile patch antenna on a Rogers RT/Duroid 5880 substrate (εr = 2.2, 1.5 mm, copper patch and ground), designed and simulated in CST Studio Suite. The aim: low return loss, VSWR close to 1, and improved gain, directivity and efficiency for S-band wireless applications. Presented at the 13th International Conference on Computing, Communication and Networking Technologies (ICCCNT), IIT Kharagpur.</p>
+        <div class="btns">
+          <a class="btn primary sm" href="https://doi.org/10.1109/ICCCNT54827.2022.9984490" target="_blank" rel="noopener">Read on IEEE Xplore ↗</a>
+          <a class="btn ghost sm" href="https://www.researchgate.net/profile/Shoriful-Sheikh" target="_blank" rel="noopener">ResearchGate ↗</a>
+        </div>
+      </div>
+      <figure class="plot">
+        <svg id="s11" viewBox="0 0 440 280" role="img" aria-label="Schematic S11 return loss curve with a resonance dip at 2.45 GHz reaching −12.542 dB"></svg>
+        <figcaption>S₁₁ return loss vs. frequency — schematic drawn from the paper's reported values (f₀ = 2.45 GHz, −12.542 dB, −10 dB bandwidth 34.9 MHz). Not the raw CST export.</figcaption>
+      </figure>
+    </article>
+
+    <div class="stats rv">
+      <div class="stat"><b>2.45 GHz</b><span>Resonance</span></div>
+      <div class="stat"><b>−12.542 dB</b><span>Return loss</span></div>
+      <div class="stat"><b>8.092 dB</b><span>Gain</span></div>
+      <div class="stat"><b>8.587 dBi</b><span>Directivity</span></div>
+      <div class="stat"><b>94.24 %</b><span>Efficiency</span></div>
+    </div>
+
+    <div class="interests rv">
+      <div class="int"><h4>RF IC &amp; Microwave</h4><p>High-frequency electronics, wave propagation and electromagnetic fields.</p></div>
+      <div class="int"><h4>Semiconductor Devices</h4><p>Device physics fundamentals, fabrication and their role in RF systems.</p></div>
+      <div class="int"><h4>Smart Automotive &amp; EVs</h4><p>Electrified, connected vehicle systems and their electronics.</p></div>
+      <div class="int"><h4>Power &amp; Automation</h4><p>Power electronics, PLC-based control and industrial automation.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Experience</div>
+      <h2>Hands-on engineering and delivery.</h2>
+    </div>
+    <div class="tl">
+      <div class="job rv">
+        <div class="when">Jun 2024 – Jun 2025</div>
+        <h3>Project Coordinator</h3>
+        <div class="org">Babylon Resources Ltd · Dhaka, Bangladesh</div>
+        <ul>
+          <li>Coordinated and monitored all phases of the <strong>‘Her Power’</strong> project under the ICT Division, Government of Bangladesh.</li>
+          <li>Supervised technical training delivery, ensured quality compliance and prepared progress reports.</li>
+          <li>Managed resource planning, expense tracking and stakeholder reporting.</li>
+          <li>Worked with technical teams to implement ICT tools and platforms used in training modules.</li>
+          <li>Handled procurement, vendor management and compliance with public procurement rules.</li>
+        </ul>
+      </div>
+      <div class="job rv">
+        <div class="when">Dec 2015 – Oct 2018</div>
+        <h3>Electrical Maintenance In-Charge &amp; Safety Officer</h3>
+        <div class="org">B2B Excellence Ltd · Gazipur, Dhaka, Bangladesh</div>
+        <ul>
+          <li><strong>Electrical maintenance:</strong> designed, developed and optimized electrical layouts, HT/LT power distribution panels and PLC units; ran diagnostics, troubleshooting and preventive maintenance for plant machinery.</li>
+          <li><strong>Fire safety:</strong> conducted structural risk assessments, regular facility safety audits and emergency response operations, maintaining national and international safety compliance.</li>
+          <li>Certified in Fire Fighting, Fire Prevention, Rescue &amp; First Aid by the Bangladesh Fire Service &amp; Civil Defence (Jan 2017).</li>
+        </ul>
+      </div>
+      <div class="job rv">
+        <div class="when">Sep – Nov 2014</div>
+        <h3>Industrial Intern</h3>
+        <div class="org">Power Grid Company of Bangladesh Ltd. (PGCB) · Grid Maintenance Division, Khulna</div>
+        <ul>
+          <li>2.5-month intensive training on power systems, PLC and optical fiber communication.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="edu-wrap">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Education</div>
+      <h2>Academic training.</h2>
+    </div>
+    <div class="cards3">
+      <div class="card rv">
+        <div class="yr">2022</div>
+        <h3>B.Sc. in Electrical &amp; Electronic Engineering</h3>
+        <p>Northern University of Business and Technology, Khulna</p>
+        <p class="note">Thesis: Design of S-Band Microstrip Patch Antenna for Wireless Communication Systems at 2.45 GHz. English-medium instruction; degree globally apostilled &amp; verified.</p>
+      </div>
+      <div class="card rv">
+        <div class="yr">2014</div>
+        <h3>Diploma in Electrical Engineering</h3>
+        <p>Khanjahan Ali College of Science and Technology, Khulna</p>
+        <p class="note">Industrial internship at PGCB — power systems, PLC and optical fiber communication.</p>
+      </div>
+      <div class="card rv">
+        <div class="yr">2010</div>
+        <h3>Secondary School Certificate (Vocational)</h3>
+        <p>Chalna K. C. Pilot Collegiate School, Khulna</p>
+        <p class="note">Major: General Electrical Works.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Skills</div>
+      <h2>Tools and core competencies.</h2>
+    </div>
+    <div class="skills">
+      <div class="skill rv"><h3>Simulation &amp; Design</h3><div class="pills"><span class="hot">CST Studio Suite</span><span class="hot">MATLAB</span><span>Antenna design</span><span>S-parameter analysis</span></div></div>
+      <div class="skill rv"><h3>Core Engineering</h3><div class="pills"><span class="hot">High-frequency electronics</span><span>Wave propagation</span><span>Electromagnetic fields</span><span>Semiconductor device physics</span></div></div>
+      <div class="skill rv"><h3>Automation &amp; Power Systems</h3><div class="pills"><span class="hot">PLC systems</span><span>HT/LT panel maintenance</span><span>Industrial troubleshooting</span><span>Circuit layout design</span><span>Cable laying</span></div></div>
+      <div class="skill rv"><h3>Project &amp; Resource Management</h3><div class="pills"><span class="hot">Project coordination</span><span>Vendor coordination</span><span>Compliance auditing</span><span>Operational reporting</span><span>MS Office</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTS -->
+<section id="certs" style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Certifications &amp; Volunteering</div>
+      <h2>Beyond the degree.</h2>
+    </div>
+    <div class="certs">
+      <div class="cert rv"><div class="ic">🛡️</div><h3>Digital Security Essentials</h3><p>National Cyber Security Agency &amp; a2i (Aspire to Innovate), ICT Division, Government of Bangladesh — verified via Muktopaath.</p></div>
+      <div class="cert rv"><div class="ic">🔥</div><h3>Fire Fighting, Prevention, Rescue &amp; First Aid</h3><p>Bangladesh Fire Service &amp; Civil Defence Directorate, January 2017.</p></div>
+      <div class="cert rv"><div class="ic">🤝</div><h3>Certificate of Appreciation</h3><p>Campaign volunteer, SSC Campaign Project — Lexicon British Council IELTS, for leadership and teamwork.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="wrap rv">
+    <div class="eyebrow" style="justify-content:center">Contact</div>
+    <h2>Let's build something at the frontier.</h2>
+    <p class="lead">Open to research positions, graduate opportunities and engineering roles in RF, semiconductors and automation.</p>
+    <a class="mail" href="mailto:shorifulet@gmail.com">shorifulet@gmail.com</a>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/shoriful-islam-sheikh-5b7691305" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://orcid.org/0000-0001-7087-6954" target="_blank" rel="noopener">ORCID 0000-0001-7087-6954 ↗</a>
+      <a href="https://www.researchgate.net/profile/Shoriful-Sheikh" target="_blank" rel="noopener">ResearchGate ↗</a>
+      <a href="tel:+8801913044592">+880 1913 044592</a>
+    </div>
+    <div class="meta">Khulna, Bangladesh</div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> Shoriful Islam Sheikh</span><span>RF · Microwave · Semiconductors · Automation</span></div></footer>
+
+<script>
+// mobile menu
+const links=document.getElementById('links');
+document.getElementById('menu').onclick=()=>links.classList.toggle('open');
+links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+// scroll reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+// S11 schematic plot (Lorentzian dip built from paper's reported values)
+(function(){
+  const svg=document.getElementById('s11'),NS='http://www.w3.org/2000/svg';
+  const W=440,H=280,L=48,R=14,T=14,B=40,f0=2.45,fmin=2.30,fmax=2.60,dbMin=-15,dbMax=0;
+  const x=f=>L+(f-fmin)/(fmax-fmin)*(W-L-R), y=d=>T+(d-dbMax)/(dbMin-dbMax)*(H-T-B);
+  const A=12.542,w=0.0346; // GHz half-width from -10 dB BW = 34.9 MHz
+  const s11=f=>-0.25-(A-0.25)/(1+Math.pow((f-f0)/w,2));
+  const el=(t,a,txt)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(txt)e.textContent=txt;svg.appendChild(e);return e};
+  for(let d=0;d>=-15;d-=5){el('line',{x1:L,x2:W-R,y1:y(d),y2:y(d),stroke:'#1d2a38','stroke-width':1});el('text',{x:L-8,y:y(d)+4,'text-anchor':'end',fill:'#7d8fa1','font-size':11,'font-family':'IBM Plex Mono,monospace'},String(d))}
+  [2.30,2.40,2.45,2.50,2.60].forEach(f=>{el('text',{x:x(f),y:H-20,'text-anchor':'middle',fill:'#7d8fa1','font-size':11,'font-family':'IBM Plex Mono,monospace'},f.toFixed(2))});
+  el('text',{x:(L+W-R)/2,y:H-3,'text-anchor':'middle',fill:'#93a3b3','font-size':11,'font-family':'IBM Plex Mono,monospace'},'Frequency (GHz)');
+  el('text',{x:12,y:H/2-10,fill:'#93a3b3','font-size':11,'font-family':'IBM Plex Mono,monospace',transform:`rotate(-90 12 ${H/2-10})`,'text-anchor':'middle'},'S11 (dB)');
+  el('line',{x1:L,x2:W-R,y1:y(-10),y2:y(-10),stroke:'#e0975a','stroke-dasharray':'4 4','stroke-width':1,opacity:.7});
+  el('text',{x:W-R-4,y:y(-10)-5,'text-anchor':'end',fill:'#e0975a','font-size':10.5,'font-family':'IBM Plex Mono,monospace'},'−10 dB');
+  let d='';for(let i=0;i<=400;i++){const f=fmin+(fmax-fmin)*i/400;d+=(i?'L':'M')+x(f).toFixed(1)+' '+y(s11(f)).toFixed(1)}
+  const p=el('path',{d,fill:'none',stroke:'#5fd1c1','stroke-width':2.4,'stroke-linejoin':'round'});
+  const len=p.getTotalLength();
+  if(!matchMedia('(prefers-reduced-motion:reduce)').matches){p.style.strokeDasharray=len;p.style.strokeDashoffset=len;p.getBoundingClientRect();p.style.transition='stroke-dashoffset 2.2s ease';
+    new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){p.style.strokeDashoffset=0;o.disconnect()}},{threshold:.3}).observe(svg)}
+  el('circle',{cx:x(f0),cy:y(-A),r:4.5,fill:'#e0975a'});
+  el('text',{x:x(f0)+10,y:y(-A)+4,fill:'#e8edf2','font-size':11.5,'font-family':'IBM Plex Mono,monospace'},'−12.542 dB @ 2.45 GHz');
+})();
+</script>
+</body>
+</html>
